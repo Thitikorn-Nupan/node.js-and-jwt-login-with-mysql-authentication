@@ -1,0 +1,28 @@
+{
+  "name": "js-authenticate-login-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "//": {
+    "1.": "node services/one.to.many.service.js",
+    "2.": "node services/register.service.js"
+  },
+  "scripts": {
+    "test": "hello world server",
+    "start": "node server.js"
+  },
+  "author": "ttknp",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "process": "^0.11.10",
+    "sequelize": "^6.37.4",
+    "winston": "^3.15.0"
+  }
+}
